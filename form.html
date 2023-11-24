@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formstyle.css">
+    <link rel="short icon" type="image/png" href="./assets/fuscanavegador.png">
+    <script src="scripts.js" defer></script>
+    <title>Formulario</title>
+
+</head>
+<body>
+    <header>
+        <nav>
+          <input type="checkbox" id="check">
+          <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+          </label>
+          <label class="logo">Só Carrão</label>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./carros.html">Carros</a></li>
+            <li><a href="./table.html">Catálogo</a></li>
+            <li><a href="./produtos.html">Produtos</a></li>
+            <li><a href="./form.html">Fale Conosco</a></li>
+          </ul>
+        </nav>
+      </header> 
+    <section>
+        <h2>Contato</h2>
+        <form id="form">
+            <label>Nome</label>
+            <input type="text" name="name" placeholder="Digite seu nome">
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Digite seu email">
+            <label>Mensagem</label>
+            <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+            <button type="submit">Enviar</button>
+
+          
+        </form>
+    </section>
+</body>
+</html>
